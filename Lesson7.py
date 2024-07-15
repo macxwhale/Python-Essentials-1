@@ -16,5 +16,82 @@ Note that the code in the editor contains two elements which may not be fully cl
 
 For the time being, we'd just like you to know that we've imported the time module and used the sleep() method to suspend the execution of each subsequent print() function inside the for loop for one second, so that the message outputted to the console resembles an actual counting. Don't worry - you'll soon learn more about modules and methods. """
 
-3.2.7 
-import time
+
+""" import time
+
+
+for y in range(1,6):
+    print(str(y) + " Mississippi")
+    time.sleep(1)
+
+# break - example
+
+print("The break instruction:")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+
+# continue - example
+
+print("\nThe continue instruction:")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+
+
+# break - example
+largest_number = -99999999
+counter = 0
+
+while True:
+    number = int(input("Enter a number or type -1 to end the program: "))
+    if number == -1:
+        break
+    counter += 1
+    if number > largest_number:
+        largest_number = number
+
+if counter != 0:
+    print("The largest number is", largest_number)
+else:
+    print("You haven't entered any number.")
+
+# continue - example
+largest_number = -99999999
+counter = 0
+
+number = int(input("Enter a number or type -1 to end program: "))
+
+while number != -1:
+    if number == -1:
+        continue
+    counter += 1
+
+    if number > largest_number:
+        largest_number = number
+    number = int(input("Enter a number or type -1 to end the program: "))
+
+if counter:
+    print("The largest number is", largest_number)
+else:
+    print("You haven't entered any number.")
+
+# break - example """
+
+""" word = str(input("Enter a word: "))
+
+while word != "chupacabra":
+    word = str(input("Enter a word: "))
+    if word == "chupacabra":
+        break
+print("You've successfully left the loop.") """
+
+#3.2.10   LAB   The continue statement – the Ugly Vowel Eater
+
+
